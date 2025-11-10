@@ -15,13 +15,6 @@ class Stack{
 		top = nullptr;
 	}
 	
-	node* createnode(string browse){
-		node* newnode = new node;
-		newnode -> browse = browse;
-		newnode -> next = nullptr;
-		return newnode;
-	}
-	
 	void Push(string browse){
 		node* newnode = new node;
 		newnode->browse = browse;
